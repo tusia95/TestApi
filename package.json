@@ -1,0 +1,25 @@
+{
+  "name": "EffectiveMobileTestTask",
+  "version": "1.0.0",
+  "description": "Simple Express user service",
+  "main": "dist/src/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/server.js",
+    "dev": "tsc -w",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30"
+  },
+  "private": true
+}
